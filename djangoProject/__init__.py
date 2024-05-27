@@ -61,6 +61,7 @@ def trans_video(file_name, type):
     total_frames = cap.get(cv2.CAP_PROP_FRAME_COUNT)  # 获取视频的总帧数
     print("total frames:" + str(total_frames))
 
+
     while cap.isOpened():
         success, img = cap.read()
         if success:
