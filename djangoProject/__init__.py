@@ -6,7 +6,7 @@ from djangoProject.settings import IMG_ROOT, VEDIO_ROOT
 from dctnet.run import get_model_list
 from moviepy.editor import VideoFileClip, AudioFileClip, concatenate_videoclips
 import threading
-import wave
+
 
 
 type_map = {

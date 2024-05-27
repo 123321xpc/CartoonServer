@@ -96,7 +96,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 IMG_ROOT = BASE_DIR / 'djangoProject/static/img'
-VEDIO_ROOT = BASE_DIR / 'djangoProject/static/vedio'
+VEDIO_ROOT = BASE_DIR / 'djangoProject/static/vdo'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field

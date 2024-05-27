@@ -1,6 +1,6 @@
 from django.urls import path
 from imgs import views as img_views
-from vedio import views as vdo_views
+from vdo import views as vdo_views
 
 urlpatterns = [
     #    path('admin/', admin.site.urls),
